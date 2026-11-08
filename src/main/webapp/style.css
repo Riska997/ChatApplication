@@ -1,0 +1,253 @@
+/* General Body Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a3fff;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+/* Profile Section Styles */
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.welcome-message h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.welcome-message p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* Settings Icon Styles */
+.settings-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.settings-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Menu Styles */
+.menu {
+    margin: 20px 0;
+}
+
+.menu a {
+    display: block;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+}
+
+.menu a .badge {
+    background-color: #4a3fff;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/* Button Styles */
+.new-chat-button {
+    background-color: #4a3fff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.new-chat-button:hover {
+    background-color: #3a2fff;
+}
+
+/* Login Container Styles */
+.login-container {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #4a3fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #3a2fff;
+}
+
+/* Error Message Styles */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Chat Styles */
+textarea#chatArea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    resize: none;
+}
+
+input#messageInput {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4a3fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3a2fff;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #4a3fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Registration Styles */
+.registration-container {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.registration-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.registration-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration-container button {
+    background-color: #4a3fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registration-container button:hover {
+    background-color: #3a2fff;
+}
